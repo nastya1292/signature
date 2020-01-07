@@ -1,0 +1,60 @@
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 499px;
+  overflow: hidden;
+  text-align: center;
+  background: #10c9c3;
+}
+.gallery .item h3{
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 110px;
+}
+.gallery .item .symbol{
+  font-size: 24px;
+  color: white;
+  padding-top: 180px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+p.symbol:before{
+  content: '\201C';
+}
+p.symbol:after{
+  content: '\201D';
+}
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 61px;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}

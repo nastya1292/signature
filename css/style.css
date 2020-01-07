@@ -1,0 +1,509 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Light.eot');
+    src: url('../fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/OpenSans-Light.woff') format('woff'),
+    url('../fonts/OpenSans-Light.ttf') format('truetype'),
+    url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.eot');
+    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+    url('../fonts/Montserrat-Medium.woff') format('woff'),
+    url('../fonts/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/NunitoSans-Regular.eot');
+    src: url('../fonts/NunitoSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NunitoSans-Regular.woff2') format('woff2'),
+    url('../fonts/NunitoSans-Regular.woff') format('woff'),
+    url('../fonts/NunitoSans-Regular.ttf') format('truetype'),
+    url('../fonts/NunitoSans-Regular.svg#NunitoSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/WorkSans-Regular.eot');
+    src: url('../fonts/WorkSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/WorkSans-Regular.woff2') format('woff2'),
+    url('../fonts/WorkSans-Regular.woff') format('woff'),
+    url('../fonts/WorkSans-Regular.ttf') format('truetype'),
+    url('../fonts/WorkSans-Regular.svg#WorkSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e9e9e9;
+}
+header{
+    padding-top: 39px;
+    margin-bottom: 169px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.container:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+header .logo{
+    float: left;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 7px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #191919;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+header nav ul li:hover a, header nav ul li.active a{
+    color: #10c9c3;
+}
+.fl_right{
+    float: right;
+}
+.bunner_information .fl_right{
+    width: 41%;
+    margin-bottom: 20px;
+}
+.who{
+    font-size: 38px;
+    color: #1d1d1d;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_studio{
+    font-size: 18px;
+    color: #787878;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 39px;
+}
+.our_services{
+    margin: auto;
+    max-width: 1137px;
+    padding-top: 102px;
+    margin-bottom: 56px;
+}
+.our_services .container .icons{
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.our_services .container .icons:last-child{
+    float: right;
+    margin-right: 0;
+}
+.our_services .container .services a{
+    margin-bottom: 26px;
+}
+.our_services .container .icons h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #191919;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.our_services .container .icons p{
+    font-size: 16px;
+    color: #787878;
+    line-height: 24px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 56px;
+}
+.icons i{
+    margin-bottom: 27px;
+    color: #8b8b8b;
+}
+.bunner_information .container .fl_right .btn-btn-contact{
+    background-color: #10c9c3;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    height: 54px;
+    width: 180px;
+}
+.about-us{
+    background-color: white;
+    margin-top: 202px;
+    padding-top: 101px;
+    padding-bottom: 102px;
+}
+.about-us .us{
+    text-align: center;
+    color: #191919;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin-bottom: 42px;
+}
+.about-us p{
+    font-family: 'Nunito Sans';
+    color: #787878;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 39px;
+}
+.about-us .img-center{
+    display: block;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.professional_skills{
+    padding-top: 165px;
+    padding-bottom: 164px;
+    max-width: 50%;
+    background-color: #f8f9f9;
+}
+.professional_skills .progress{
+    max-width: 500px;
+    margin: auto;
+}
+.professional_skills .progress h2{
+    color: #171717;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin-bottom: 39px;
+}
+.progressbar{
+    width: 100%;
+    background-color: #d8d8d8;
+    height: 3px;
+    margin-bottom: 41px;
+}
+.progressbar .percent{
+    display: block;
+    height: 3px;
+    background-color: #10c9c3;
+}
+
+.progressbar .percent.seventy_five{
+    width: 75%;
+}
+.progressbar .percent.ninety{
+    width: 90%;
+}
+.progressbar .percent.sixty{
+    width: 60%;
+}
+.professional_skills .percent{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.total{
+    background-color: #10c9c3;
+    padding-top: 101px;
+    padding-bottom: 101px;
+}
+.total .container .t-icons{
+    float: left;
+    width: 25%;
+    color: white;
+    display: flex;
+}
+.total .container .t-icons i{
+    color: white;
+}
+.total .container .t-icons span{
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-left: 29px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.total .container .t-icons span h4{
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.total .container .t-icons:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.allpictures{
+    background-color: white;
+}
+.allpictures .container{
+    margin: auto;
+    max-width: 1099px;
+    padding-top: 67px;
+}
+.allpictures .container .pictures{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 68px;
+}
+.allpictures .container .pictures:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.project{
+    background-color: #f5f5f5;
+    margin-top: -21px;
+}
+.project .container{
+    margin: auto;
+    max-width: 671px;
+}
+.project .container h1{
+    text-align: center;
+    font-size: 30px;
+    color: #1d1d1d;
+    padding-top: 103px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.project .container p{
+    font-size: 16px;
+    color: #787878;
+    text-align: center;
+    margin-bottom: 38px;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+}
+.project .container input{
+    box-sizing:border-box;
+    line-height: 48px;
+    width: 100%;
+    padding-left:20px;
+    margin-bottom: 30px;
+    border: none;
+    color: #787878;
+    font-size: 15px;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+}
+.project .container form .inp{
+    display: flex;
+    justify-content: space-between;
+}
+.project .container form .inp div{
+    width: 320px;
+}
+.project textarea{
+    resize: none;
+    box-sizing:border-box;
+    width: 100%;
+    padding-left:20px;
+    padding-top: 18px;
+    padding-bottom: 141px;
+    margin-bottom: 30px;
+    border: none;
+    color: #787878;
+    font-size: 15px;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+}
+.project .container button{
+    background-color: #10c9c3;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 54px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.project .container .btn-center{
+    text-align: center;
+}
+.our_work_process{
+    background-color: white;
+    margin-top: -21px;
+}
+.our_work_process .container{
+    margin: auto;
+    max-width: 1170px;
+}
+.our_work_process .container h1{
+    text-align: center;
+    font-size: 30px;
+    color: #191919;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding-top: 100px;
+    margin-bottom: 41px;
+}
+.our_work_process .container p{
+    color: #787878;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    margin-bottom: 57px;
+}
+.our_work_process .container .video img{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.f_bottom{
+    background-color: #141414;
+}
+.f_bottom .focus{
+    max-width: 1140px;
+    margin: auto;
+}
+.f_bottom .focus .f_left{
+    display: inline-block;
+    float: left;
+}
+.f_bottom .focus .f_contacts{
+    display: inline-block;
+    color: #bcbcbc;
+    font-size: 15px;
+    padding-top: 100px;
+    margin-left: 248px;
+    font-family: 'Work Sans';
+    font-weight: normal;
+}
+.f_bottom .focus .f_contacts .nunitosans{
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+}
+.f_bottom .focus .footer_navigation_title{
+    float: right;
+}
+.f_bottom .focus .footer_navigation_title .footer_navigation_list{
+    padding-top: 100px;
+    line-height: 1.5;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    color: #bcbcbc;
+    font-size: 15px;
+    margin-left: 146px;
+}
+.f_bottom .focus .footer_navigation_title_2{
+    float: right;
+}
+.f_bottom .focus .footer_navigation_title_2 .footer_navigation_list_2{
+    padding-top: 100px;
+    line-height: 1.5;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    color: #bcbcbc;
+    font-size: 15px;
+    margin-left: 57px;
+}
+.f_bottom .focus .footer_soc_link{
+    float: right;
+    padding-top: 100px;
+    margin-left: 130px;
+}
+.f_bottom .focus .footer_soc_link a{
+    text-decoration: none;
+    line-height: 1.6;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    font-size: 15px;
+}
+.f_bottom .focus .f_left h2{
+    color: white;
+    padding-top: 100px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+.f_bottom .f_left p{
+    color: #bcbcbc;
+    margin-bottom: 101px;
+    font-size: 15px;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+}
+.f_bottom .focus:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.squares .container{
+    margin: auto;
+    max-width: 1366px;
+}
+.squares .container .box{
+    width: 100%;
+    table-layout: fixed;
+}
+.squares .container .box .box_top .gray{
+   background-color: #838383;
+}
+.squares .container .box .box_top .light_gray{
+    background-color: #dddddd;
+}
+.squares .container .box .box_top .black{
+    background-color: black;
+}
+.squares .container .box .box_top .black i{
+    color: white;
+    opacity: 0.8;
+}
+.squares .container th{
+    width: 342px;
+    height: 300px;
+}
+.load_more{
+    background-color: #f5f5f5;
+}
+.load_more .container{
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 45px;
+}
+.load_more .container .btn{
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8e8e8e;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+
