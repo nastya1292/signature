@@ -144,16 +144,19 @@ header nav ul li:hover a, header nav ul li.active a{
     margin-bottom: 27px;
     color: #8b8b8b;
 }
-.bunner_information .container .fl_right .btn-btn-contact{
-    background-color: #10c9c3;
-    border: none;
+.bunner_information .container .fl_right .contact-us{
     text-transform: uppercase;
     text-align: center;
     color: white;
     font-family: 'Montserrat';
     font-size: 12px;
-    height: 54px;
-    width: 180px;
+    text-decoration: none;
+    background-color: #10c9c3;
+    padding-top: 23px;
+    padding-left: 46px;
+    padding-right: 47px;
+    padding-bottom: 22px;
+    font-weight: 500;
 }
 .about-us{
     background-color: white;
@@ -244,14 +247,14 @@ header nav ul li:hover a, header nav ul li.active a{
     font-family: 'Montserrat';
     font-weight: 500;
     margin-left: 29px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     display: inline-block;
 }
-.total .container .t-icons span h4{
+.total .container .t-icons span .numeral{
+    display:block;
     font-size: 18px;
-    font-family: 'Montserrat';
-    font-weight: 500;
-    margin-bottom: 8px;
+    margin: 0 0 10px;
 }
 .total .container .t-icons:after{
     content: "";
@@ -411,24 +414,32 @@ header nav ul li:hover a, header nav ul li.active a{
 }
 .f_bottom .focus .footer_navigation_title .footer_navigation_list{
     padding-top: 100px;
+    margin-left: 146px;
+    list-style: none;
+}
+.f_bottom .focus .footer_navigation_title .footer_navigation_list li a{
     line-height: 1.5;
     font-family: 'Nunito Sans';
     font-weight: normal;
     color: #bcbcbc;
     font-size: 15px;
-    margin-left: 146px;
+    text-decoration: none;
 }
 .f_bottom .focus .footer_navigation_title_2{
     float: right;
 }
 .f_bottom .focus .footer_navigation_title_2 .footer_navigation_list_2{
     padding-top: 100px;
+    margin-left: 57px;
+    list-style: none;
+}
+.f_bottom .focus .footer_navigation_title_2 .footer_navigation_list_2 li a{
     line-height: 1.5;
     font-family: 'Nunito Sans';
     font-weight: normal;
     color: #bcbcbc;
     font-size: 15px;
-    margin-left: 57px;
+    text-decoration: none;
 }
 .f_bottom .focus .footer_soc_link{
     float: right;
@@ -437,7 +448,7 @@ header nav ul li:hover a, header nav ul li.active a{
 }
 .f_bottom .focus .footer_soc_link a{
     text-decoration: none;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #bcbcbc;
     font-family: 'Nunito Sans';
     font-weight: normal;
@@ -468,7 +479,6 @@ header nav ul li:hover a, header nav ul li.active a{
     max-width: 1366px;
 }
 .squares .container .box{
-    width: 100%;
     table-layout: fixed;
 }
 .squares .container .box .box_top .gray{
@@ -496,14 +506,14 @@ header nav ul li:hover a, header nav ul li.active a{
     padding-top: 46px;
     padding-bottom: 45px;
 }
-.load_more .container .btn{
-    border: none;
+.load_more .container a{
     text-align: center;
     text-transform: uppercase;
     color: #8e8e8e;
     font-size: 12px;
     font-family: 'Montserrat';
     font-weight: 500;
+    text-decoration: none;
 }
 
 
