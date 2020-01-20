@@ -1,11 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6921492-354f-4086-b552-a14e9289954c" name="Default Changelist" comment="Second Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/design and develop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/signature.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b6921492-354f-4086-b552-a14e9289954c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/.csslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/dist/gallery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/dist/gallery.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/dist/gallery.prefixed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/dist/gallery.prefixed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/dist/gallery.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/build/compiler.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/dist/html5shiv-printshiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/dist/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/src/html5shiv-printshiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/src/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/body-crash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/iframed-tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/inline-mixed-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/inline-print-media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/no-print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/paramtracer.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/print-styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/data/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/highcharts/area-basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/highcharts/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/html5shiv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/iframe.1-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/iframe.1-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/iframe.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/data/dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/data/iframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/data/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/data/testinit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/data/testrunner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/data/testsuite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/data/versioncheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/unit/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/unit/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/jquery-1.7.1/unit/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/mixed-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/object-test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/perf.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/perf.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/qunit/qunit.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/qunit/qunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/style.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/style.print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/html5shiv/test/unit/tests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/jquery/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/jquery/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/jquery/jquery-migrate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/jquery/jquery-migrate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/normalize-css/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/normalize-css/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/normalize-css/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/normalize-css/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/normalize-css/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/normalize-css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/normalize-css/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/css/print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/fonts/Arvo-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/fonts/Arvo-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/img/noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/img/raisedfist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/minify" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/plugins/prefixfree.dynamic-dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/plugins/prefixfree.dynamic-dom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/plugins/prefixfree.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/plugins/prefixfree.jsapi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/plugins/prefixfree.vars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/plugins/prefixfree.viewport-units.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/prefixfree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/prefix-free/prefixfree.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/README.markdown" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/selectivizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/iframe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/import-quoted-double.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/import-quoted-single.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/import-url-fully-qualified-path.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/import-url-quoted-double.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/import-url-quoted-single.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/import-url-root-relative-path.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/import-url-unquoted.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/master.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/nested/import-url-relative-path.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/css/nested/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/html/domready-postload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/html/iframe-hash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/html/iframe-query.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/html/iframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/components/selectivizr/tests/master/js/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/ie-8/js/jquery-extra-selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/standard/css/vendor/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/standard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/examples/standard/js/prefixfree.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/sass/_gallery.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/sass/gallery.build.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery-css-master/sass/gallery.theme.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/signature.html" beforeDir="false" afterPath="$PROJECT_DIR$/signature.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +144,33 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VRIKxQFkxOeuDDSRj3x6OwJeqD" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -61,8 +208,19 @@
       <workItem from="1578427105711" duration="119000" />
       <workItem from="1578427309951" duration="286000" />
       <workItem from="1578427677622" duration="92000" />
-      <workItem from="1578591640936" duration="8010000" />
+      <workItem from="1578591640936" duration="8641000" />
+      <workItem from="1578674320225" duration="5117000" />
+      <workItem from="1578767749691" duration="386000" />
+      <workItem from="1579539303970" duration="11835000" />
     </task>
+    <task id="LOCAL-00001" summary="Second Commit">
+      <created>1578604396696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578604396696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
